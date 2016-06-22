@@ -1,0 +1,11 @@
+spring:
+  main:
+    show-banner: false
+logging:
+  level:
+    root: debug
+dbsource:
+  url: jdbc:postgresql://localhost:5433/osm
+  username: roman
+  password: 12345678
+  driver-class-name: org.postgresql.Driver
